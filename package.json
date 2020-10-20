@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "downloadjs": "^1.4.7",
+    "jsonwebtoken": "^8.5.1",
+    "node-sass": "^4.14.1",
+    "rc-steps": "^3.5.0",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-recaptcha-v3": "^1.1.0",
+    "react-router-dom": "^5.1.2",
+    "react-router-hash-link": "^1.2.2",
+    "react-scripts": "^3.4.3",
+    "react-translate": "^7.0.1",
+    "react-translate-component": "^0.15.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
